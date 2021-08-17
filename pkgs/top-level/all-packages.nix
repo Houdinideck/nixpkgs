@@ -7628,6 +7628,10 @@ with pkgs;
 
   ocserv = callPackage ../tools/networking/ocserv { };
 
+  odoo-12 = callPackage ../servers/web-apps/odoo/odoo-12 { };
+
+  odoo-14 = callPackage ../servers/web-apps/odoo/odoo-14 { };
+
   opencorsairlink = callPackage ../tools/misc/opencorsairlink { };
 
   openfpgaloader = callPackage ../development/tools/misc/openfpgaloader { };
